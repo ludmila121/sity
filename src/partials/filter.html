@@ -1,0 +1,37 @@
+<form class="container filter-container is-hidden" id="filter-form">
+    <ul class="filters">
+      <li class="filters__list">
+        <select class="js-filter-genres filters__item" name="select-genre"></select>
+      </li>
+      <li class="filters__list">
+        <select class="js-filter-language filters__item"></select>
+      </li>
+      <li class="filters__list">
+        <select class="js-filter-vote_average filters__item">
+          <option value="" selected>All Votes Average</option>
+          <option value="10">10</option>
+          <option value="9">9+</option>
+          <option value="8">8+</option>
+          <option value="7">7+</option>
+          <option value="6">6+</option>
+          <option value="5">5+</option>
+          <option value="4">4+</option>
+          <option value="3">3+</option>
+          <option value="2">2+</option>
+          <option value="1">1+</option>
+        </select>
+      </li>
+      <li class="filters__list">
+        <select class="js-filter-years filters__item"></select>
+      </li>
+      <li class="filters__button">
+        <button
+          class="filters__reset"
+          type="reset"
+          style="font-size: 30px; color: var(--accent-color)"
+        >
+          <i class="fa-solid fa-square-xmark fa-beat" style="--fa-animation-duration: 2s"></i>
+        </button>
+      </li>
+    </ul>
+  </form>

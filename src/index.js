@@ -1,0 +1,23 @@
+import './sass/main.scss';
+/* import './js/fetch_api'; 
+//import './js/home';
+import './js/render_popular';
+import './js/render_search';
+import './js/render_library';
+import './js/render_filter';
+import './js/render_utils';
+import './js/pagination';
+import './js/modal_details';
+import './js/genres_info';
+import './js/inputCard';
+import './js/render_input';
+import './js/to_top_arrow';
+import './js/storage';
+import './js/library';
+import './js/modal_footer';
+import './js/filmCard';
+import './js/slider_films';
+import './js/language';
+import './js/render_footer_modal';
+import './js/changeOfTheme';
+import './js/slider_glide';   */
